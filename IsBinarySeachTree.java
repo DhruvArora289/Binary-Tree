@@ -79,8 +79,7 @@ public class IsBinarySeachTree {
             return new IsBSTPair(true, Integer.MIN_VALUE, Integer.MAX_VALUE);
         }
         IsBSTPair lp = ISBst(node.left);
-
-        rfrvfrv
+        
         IsBSTPair rp = ISBst(node.right);
 
         int max = Math.max(Math.max(rp.max,lp.max),node.data);
